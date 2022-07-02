@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/src/widgets/framework.dart';
+import 'package:flutter/material.dart';
+import 'package:vbt_wallet/animation/fadeAnimation.dart';
 
 class IconWidget extends StatelessWidget {
   final String title;
@@ -17,16 +17,30 @@ class IconWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          width: 60,
-          height: 60,
-          decoration: BoxDecoration(
-            color: color,
-            borderRadius: BorderRadius.circular(40),
+        FadeAnimation(
+          delay: delayanimation,
+          child: Container(
+            width: 60,
+            height: 60,
+            decoration: BoxDecoration(
+              color: color,
+              borderRadius: BorderRadius.circular(40),
+            ),
+            child: child,
           ),
-          child: child,
         ),
-        SizedBox(height:MediaQuery.of(context).size.height*0.01);
+        SizedBox(
+          height: MediaQuery.of(context).size.height * 0.01,
+        ),
+        FadeAnimation(
+          delay: delayanimation,
+          child: Text(
+            title,
+            style: const TextStyle(
+              color: Colors.grey,
+            ),
+          ),
+        ),
       ],
     );
   }

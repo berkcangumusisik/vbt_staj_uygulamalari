@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vbt_uygulama/pages/home.dart';
+import 'package:vbt_wallet/pages/home.dart';
 
 void main() {
   runApp(const MyApp());
