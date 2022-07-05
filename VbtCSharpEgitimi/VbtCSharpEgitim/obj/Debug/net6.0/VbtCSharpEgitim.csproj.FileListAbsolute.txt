@@ -1,0 +1,15 @@
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\bin\Debug\net6.0\VbtCSharpEgitim.exe
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\bin\Debug\net6.0\VbtCSharpEgitim.deps.json
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\bin\Debug\net6.0\VbtCSharpEgitim.runtimeconfig.json
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\bin\Debug\net6.0\VbtCSharpEgitim.dll
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\bin\Debug\net6.0\VbtCSharpEgitim.pdb
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.csproj.AssemblyReference.cache
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.AssemblyInfoInputs.cache
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.AssemblyInfo.cs
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.csproj.CoreCompileInputs.cache
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.dll
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\refint\VbtCSharpEgitim.dll
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.pdb
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\VbtCSharpEgitim.genruntimeconfig.cache
+C:\Users\BERKCAN\source\repos\VbtCSharpEgitimi\VbtCSharpEgitim\obj\Debug\net6.0\ref\VbtCSharpEgitim.dll
