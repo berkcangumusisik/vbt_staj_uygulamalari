@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Collections;
+
 Console.WriteLine("Hello, World!");
 int age = 29; // Sayısal ifadeleri tutar
 string name = "Berkcan"; // Metinsel ifadeleri tutar.
@@ -173,6 +175,10 @@ clsStudent.Surname = "Kaplan";
 clsStudent.Number = 405;
 clsStudent.IdentityNumber = "121212";
 lstStudents.Add(clsStudent);
+if(lstStudents.Count > 0) 
+{
+    string nameSurname = lstStudents[0].Name;
+}
 
 var student = lstStudents.Where(p => p.Number == 405).FirstOrDefault();
 
@@ -184,6 +190,164 @@ else
 {
     Console.WriteLine("Öğrenci kaydınız bulunamadı!");
 }
+
+
+List<string> lstCity = new List<string>();
+lstCity.Add("İstanbul");
+lstCity.Add("Ankara");
+lstCity.Add("İzmir");
+
+List<string> lstCountry = new List<string>();
+lstCountry.Add("Türkiye");
+lstCountry.Add("Almanya");
+lstCountry.Add("Fransa");
+lstCity.AddRange(lstCountry); //City listesinin üzerine ülkeyi ekler.
+if (lstCity.Contains("İstanbul"))
+{
+    Console.WriteLine("Mevcut");
+}
+else
+{
+    Console.WriteLine("Mevcut Değil");
+}//Contains liste içerisinde girilen verinin olup olmadığını kontrol etmeyi sağlar.
+foreach (string value in lstCity)
+{
+    Console.WriteLine(value);
+}
+lstCity.Remove("İstanbul");
+lstCity.RemoveAt(0); //Listeden eleman silme
+
+lstCity.Clear(); //Liste içerisini boşaltır.
+
+//ArrayList
+// List ile veri tipi belirtirken ArrayList içerisinde belirtilmez. ArrayList çok tercih edilmez.
+ArrayList dynamicList = new ArrayList();
+dynamicList.Add("Ankara");
+dynamicList.Add("İstanbul");
+dynamicList.Add("İzmir");
+if (dynamicList.Contains("İstanbul"))
+{
+    Console.WriteLine("Mevcut");
+}
+else
+{
+    Console.WriteLine("Mevcut Değil");
+}//Contains array içerisinde girilen verinin olup olmadığını kontrol etmeyi sağlar.
+foreach(var item in dynamicList)
+{
+    Console.WriteLine(item);
+}
+
+//Hashtable ile birlikte key value değeri tutmayı sağlar.
+Hashtable cityList = new Hashtable();
+cityList.Add(34, "İstanbul");
+cityList.Add(6, "Ankara");
+Console.WriteLine("İl kodu giriniz: ");
+int ilKodu = Convert.ToInt32(Console.ReadLine());
+if (cityList.Contains(ilKodu))
+{
+    Console.WriteLine("İl Kodu Mevcut");
+}
+else
+{
+    Console.WriteLine("İl Kodu Mevcut Değil");
+}
+
+Hashtable lstcities = new Hashtable();
+City city = new City();
+city.CityCode = 34;
+city.CityName = "İstanbul";
+
+City cityAnk = new City();
+cityAnk.CityCode = 6;
+cityAnk.CityName = "Ankara";
+
+lstcities.Add(city.CityCode, city.CityName);
+lstcities.Add(cityAnk.CityCode, cityAnk.CityName);
+
+Console.WriteLine("İl kodu giriniz: ");
+int plaka = Convert.ToInt32(Console.ReadLine());
+if (cityList.Contains(plaka))
+{
+    Console.WriteLine("İl Kodu Mevcut");
+}
+else
+{
+    Console.WriteLine("İl Kodu Mevcut Değil");
+}
+
+List<City> lstcities1 = new List<City>();
+City cityIst = new City();
+cityIst.CityCode = 34;
+cityIst.CityName = "İstanbul";
+lstcities1.Add(cityIst);
+
+City cityAnkara = new City();
+cityAnkara.CityCode = 6;
+cityAnkara.CityName = "Ankara";
+lstcities1.Add(cityAnkara);
+Console.WriteLine("İl kodu giriniz: ");
+int plaka1 = Convert.ToInt32(Console.ReadLine());
+City c  = lstcities1.Where(x => x.CityCode == plaka1).FirstOrDefault();
+if (c != null)
+{
+    Console.WriteLine("İl Kodu Mevcut");
+}
+else
+{
+    Console.WriteLine("İl Kodu Mevcut Değil");
+}
+
+//BitArray içerisinde bool değerler tutar.
+bool[] bit = { true, false, true, false };
+BitArray bitArray = new BitArray(bit);
+
+//Queue Sınıfı => İlk giren ilk çıkar ilkesiyle çalışır.
+//Enqueue(): Kuyruğun sonuna eleman ekler.
+//Dequeue(): Kuyruğun başındaki elemanı çıkartır.
+Queue<string> lstQueue = new Queue<string>();
+lstQueue.Enqueue("Berkcan Gümüşışık");
+lstQueue.Enqueue("Ahmet Kaplan");
+lstQueue.Enqueue("Ali Ak");
+try
+{
+    string nameSurname = lstQueue.Dequeue();
+    Console.WriteLine("Müşteri : ", nameSurname);
+}
+catch (Exception)
+{
+    Console.WriteLine("Bekleyen müşteri kalmadı");
+}
+//Dictionary ile hashtable farkı dictionaryde  hem key hem de value değerini belirtiyoruz. Ama hashtable da belirtmiyoruz. Hashtable da performans kaybı yaşanabilir.
+Dictionary<int, string> dicCity = new Dictionary<int, string>();
+dicCity.Add(6, "Ankara");
+dicCity.Add(34, "İstanbul");
+
+int ilKod = 0;
+if (dicCity.ContainsKey(ilKod))
+{
+    Console.WriteLine("İl Kodu Mevcut");
+}
+else
+{
+    Console.WriteLine("İl Kodu Mevcut Değil");
+}
+
+//Stackte son giren ilk çıkar
+Stack<string> lstStack = new Stack<string>();
+lstStack.Push("İstanbul");
+lstStack.Push("Ankara");
+lstStack.Push("İzmir");
+
+try
+{
+    string cityN = lstStack.Pop();
+    
+}
+catch (Exception)
+{
+    Console.WriteLine("İl kalmadı");
+}
 Console.ReadLine();
 
 public class Student
@@ -192,4 +356,11 @@ public class Student
     public string Surname { get; set; }
     public int Number { get; set; }
     public string IdentityNumber { get; set; }
+}
+
+public class City
+{
+    public int CityCode { get; set; }
+    public string CityName { get; set; }
+  
 }
