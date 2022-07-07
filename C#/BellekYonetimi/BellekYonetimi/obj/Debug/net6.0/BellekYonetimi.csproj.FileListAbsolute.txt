@@ -1,0 +1,15 @@
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\bin\Debug\net6.0\BellekYonetimi.exe
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\bin\Debug\net6.0\BellekYonetimi.deps.json
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\bin\Debug\net6.0\BellekYonetimi.runtimeconfig.json
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\bin\Debug\net6.0\BellekYonetimi.dll
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\bin\Debug\net6.0\BellekYonetimi.pdb
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.csproj.AssemblyReference.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.AssemblyInfoInputs.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.AssemblyInfo.cs
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.csproj.CoreCompileInputs.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.dll
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\refint\BellekYonetimi.dll
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.pdb
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\BellekYonetimi.genruntimeconfig.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi\BellekYonetimi\obj\Debug\net6.0\ref\BellekYonetimi.dll

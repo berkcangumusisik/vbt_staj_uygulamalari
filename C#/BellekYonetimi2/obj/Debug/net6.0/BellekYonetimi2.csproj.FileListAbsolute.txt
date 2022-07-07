@@ -1,0 +1,15 @@
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\bin\Debug\net6.0\BellekYonetimi2.exe
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\bin\Debug\net6.0\BellekYonetimi2.deps.json
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\bin\Debug\net6.0\BellekYonetimi2.runtimeconfig.json
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\bin\Debug\net6.0\BellekYonetimi2.dll
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\bin\Debug\net6.0\BellekYonetimi2.pdb
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.csproj.AssemblyReference.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.AssemblyInfoInputs.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.AssemblyInfo.cs
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.csproj.CoreCompileInputs.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.dll
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\refint\BellekYonetimi2.dll
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.pdb
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\BellekYonetimi2.genruntimeconfig.cache
+C:\Users\BERKCAN\Documents\GitHub\vbt_staj_uygulamalari\C#\BellekYonetimi2\obj\Debug\net6.0\ref\BellekYonetimi2.dll
