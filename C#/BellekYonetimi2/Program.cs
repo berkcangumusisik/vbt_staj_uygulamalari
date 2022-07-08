@@ -5,16 +5,31 @@ namespace Vbt
     public class VBT
     {
         [Serializable]
-        public class Address:IDisposable
+        public class Address : IDisposable
         {
+            private bool _disposed;
             public string Street { get; set; }
             public string City { get; set; }
             public string Country { get; set; }
 
+            ~Address() => Dispose(false);
+            protected virtual void Dispose(bool disposing)
+            {
+                if (_disposed)
+                {
+                    return;
+                }
+                if (disposing)
+                {
+                    //TODO
+                }
+                _disposed = true;
+            }
+
             public void Dispose()
             {
-               private bool _disposed = false;
-             ~ Address() => Dispose(false)
+                Dispose(true);
+                GC.SuppressFinalize(this);
             }
         }
         [Serializable]
