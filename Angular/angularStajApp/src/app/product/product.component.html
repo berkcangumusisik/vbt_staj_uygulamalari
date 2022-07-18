@@ -1,0 +1,45 @@
+Ad Soyad: <input type="text" [(ngModel)]="name">
+<br>
+<br>
+Ad Soyad: {{ name }}
+<br>
+<br>
+Yıl: {{ year }}
+<br>
+<br>
+Tarih: {{ date }}
+<br>
+<br>
+Bool: {{ bool }}
+<br>
+<br>
+
+
+<form [formGroup]="form">
+  Ad Soyad Reactive Form: <input type="text" formControlName="name">
+  <br>
+  <br>
+  Ad Soyad Reactive Form: {{ form.controls['name'].value }}
+  <br>
+  <br>
+</form>
+
+<br>
+<br>
+
+Product Model<br>
+-------------
+<br>
+<br>
+Ad Soyad: {{ product.name }}
+<br>
+<br>
+Yıl: {{ product.year }}
+<br>
+<br>
+Tarih: {{ product.date }}
+<br>
+<br>
+Bool: {{ product.bool }}
+<br>
+<br>
