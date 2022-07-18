@@ -16,7 +16,7 @@ namespace Vbt
             protected virtual void Dispose(bool disposing)
             {
                 if (_disposed)
-                {
+ P               {
                     return;
                 }
                 if (disposing)
